@@ -1,0 +1,33 @@
+div {
+    height:100px;
+    width:100px;
+    border-radius:5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Verdana, Arial, Sans-Serif;
+    margin-right:5px;
+    background-color: blue;
+}
+
+#ready {
+    background-color:#19c337;
+    color:#FFFFFF;
+}
+
+#notready {
+    background-color:#FF0000;
+    color:#ABCDEF;
+}
+
+#round {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: #008800;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#003500), to(#008800));
+}
+
+#moveright {
+    position :relative;
+}
