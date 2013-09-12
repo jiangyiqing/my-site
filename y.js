@@ -9,7 +9,7 @@ $(document).ready(function(){
 
     	$("h1").fadeOut(100);
     	$("h1").fadeIn(2000,function () {
-    			$("h1").css("color","red");	
+    			$("h1").css("color","ff0000");	
     	});
     
 	});
