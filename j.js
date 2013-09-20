@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
     $('#mouseenter1').mouseenter(function(){
-    	//alert("mouse on");
+   
     	$(this).fadeOut();
     });
 
@@ -35,8 +35,9 @@ $(document).ready(function(){
     });
 
     $('#moveright').click(function(){
-    //	alert("clicked");
+   
     	$('#moveright').animate({left:"+=30px"});
     	$('#moveright').animate({top:"+=30px"});
     });
+    $('#notready').hide(1200)
 });
