@@ -39,5 +39,5 @@ $(document).ready(function(){
     	$('#moveright').animate({left:"+=30px"});
     	$('#moveright').animate({top:"+=30px"});
     });
-    $('#notready').hide(1200)
+    $('#notready').hide(2000)
 });
