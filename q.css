@@ -1,4 +1,23 @@
-body{
-border-width: 51.2px
-border-color: #19c337
+div{
+	background-color: 19c337
+}
+#big{
+	width: 150px;
+	height: 150px;
+	background-color:"yellow";
+}
+#carI{
+	width: 25px;
+	height:35px;
+	border-radius: 95%;
+}
+#carII{
+	width: 25px;
+	height: 65px;
+	border-radius: 85%;
+}
+.round{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%
 }
