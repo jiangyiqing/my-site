@@ -1,8 +1,7 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>无标题</title>
 </head>
 <body>
 	

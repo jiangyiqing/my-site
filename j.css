@@ -1,3 +1,6 @@
+body{
+    background-color: #19c337
+}
 div {
     height:100px;
     width:100px;
@@ -11,7 +14,7 @@ div {
 }
 
 #ready {
-    background-color:#19c337;
+    background-color:#0f0;
     color:#FFFFFF;
 }
 
@@ -30,4 +33,10 @@ div {
 
 #moveright {
     position :relative;
+}
+.jyq{
+    height: 64px;
+    width: 200px;
+    background-color: #ABCDEF;
+    color:#19c337;
 }
