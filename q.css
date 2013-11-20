@@ -1,5 +1,5 @@
 div{
-	background-color: #19c337;
+	background-color: #0ff;
 }
 #sun{
 	width: 150px;
@@ -9,7 +9,7 @@ border-radius: 100%;
 position: absolute;
 left: 50px;
 top: 40px;
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF0000), to(#FF7000));
+background-image: -webkit-gradient(linear, 0% 0%, 0% 0%, from(#FF0000), to(#FF7000));
 }
 #carI{
 	width: 140px;
@@ -82,7 +82,7 @@ height: 150px;
 border-radius: 100%;
 position: absolute;
 left: 580px;
-background-color: #ffffff;
+background-color: #19c337;
 }
 .UFO{
 	background-color: #FFB800;
