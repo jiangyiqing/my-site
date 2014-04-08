@@ -365,8 +365,8 @@ html, body {
           animation: spin-right 5s linear infinite;
 }
 #saturn-six{
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   position: relative;
   top: 0;
