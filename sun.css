@@ -378,8 +378,9 @@ html, body {
   height: 760px;
   width: 200px;
   background-color: #0ff;
+  position: fixed;
 }
 h1,button{
-  position: relative;
+  position: fixed;
   left: 100px;
 }

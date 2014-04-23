@@ -1,0 +1,39 @@
+.menu{
+	width: 54em;
+	background-color: #0f0;
+	height: 6em;
+	border-radius: 25%;
+	position: fixed;
+	top: 4em
+}
+.neiron{
+	width: 60em;
+	height: 14em;
+	border-radius: 5%;
+	background-color: #ff0;
+	position: absolute;
+	top: 11em;
+}
+#footer{
+	width: 15em;
+	height: 2em;
+
+}
+#header{
+	width: 24em;
+	height: 3em;
+}
+*{
+	color: #fff;
+	text-align: center;
+	margin: 0,0,0,0;
+}
+#p1{
+	font-size:6px;
+	color: #000; 
+}
+button,a,h1,p{
+	color: #000;
+}
+
+
