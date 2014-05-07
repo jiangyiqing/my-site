@@ -20,48 +20,53 @@ h2,h1{
 	color: #fff;
 }
 .green{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color: green;
 	text-decoration: underline;
 }
 .red{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color: red;
 	text-decoration: underline;
 }
 .blue{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color: blue;
 	text-decoration: underline;
 }
 #aba{
-	font-family:  cutieheartz;
+	font-family:  cutieheartz Garamond;
 }
 .gray{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color: gray;
 	text-decoration: underline;
 }
 .l-green{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color:#0008ff;
 	text-decoration: underline;
 }
 .l-blue{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color:#0ff;
 	text-decoration: underline;
 }
 .purple{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color:purple;
 	text-decoration: underline;
 }
 .yellow{
-	font-family: cutieheartz;
+	font-family: cutieheartz Garamond;
 	color: yellow;
 	text-decoration: underline;
 }
 #black{
 	color: black;
+}
+#tixing{
+	color: red;
+	font: 50px cutieheartz Garamond;
+	border:dashed 2px green;
 }
