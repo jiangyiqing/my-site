@@ -71,6 +71,10 @@ h2,h1{
 	border:dashed 2px green;
 }
 
-#w{
+.w{
 	color: white;
+}
+
+a{
+	color:#fff; 
 }
