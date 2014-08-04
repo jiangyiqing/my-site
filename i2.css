@@ -10,7 +10,6 @@
 }
 
 .jumbotron {
-  background-image:url('http://goo.gl/04j7Nn');
   height: 500px;
 }
 
@@ -42,4 +41,21 @@
 
 .learn-more a {
   color: #00b0ff;
+}
+.span{
+  height: 20px;
+  z-index: -1;
+}
+#black-one{
+  color: black;
+  font-size: 30px;
+  font-family: garamond;
+}
+#sw{
+  width: 700px;
+  position: relative; 
+  left: 25%;
+}
+img{
+  width: 100%;
 }
