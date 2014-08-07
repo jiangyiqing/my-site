@@ -10,7 +10,7 @@
 }
 
 .jumbotron {
-  height: 500px;
+/*  height: 500px;*/
 }
 
 .jumbotron h1 {
@@ -27,6 +27,7 @@
 .jumbotron .container{
     position:relative;
     top:100px;
+      margin: 0px;
 }
 
 .learn-more {
@@ -51,11 +52,23 @@
   font-size: 30px;
   font-family: garamond;
 }
-#sw{
+/*#sw{
   width: 700px;
   position: relative; 
   left: 25%;
-}
+}*/
 img{
   width: 100%;
+}
+h3{
+  font-size: 30px;
+}
+h4{
+  font-size: 20px;
+}
+#footer{
+  text-align: center;
+}
+#aI{
+  color: red;
 }
