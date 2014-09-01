@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="../bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="i2.css">
+
+  <script src="../javascript/jquery-2.1.1.min.js"></script>
+  <script src="../bootstrap-3.1.1-dist/js/bootstrap.js"></script>
+  <script type="text/javascript">
+    $('.carousel').carousel({
+      interval: 2000
+    })
+
+  </script>
+  <title>
+    我的网站
+  </title>
+</head>
+
+<body>
+  <div class="nav">
+    <!-- <div class="container">
+      <ul style="font-size:45px;">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Next Page</a></li>
+        <li><a href="#">图形变变变</a></li>
+        <li><a href="#">教师节礼物</a></li>
+        <li><a href="#">车</a></li>
+        <li><a href="#">Sun</a></li>
+        <li><a href="#">欢迎光临教拆网</a></li>
+      </ul>
+    </div> -->
+    <div><nav class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Home</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+
+
+            <li class="active"><a href="#">Next Page</a></li>
+            <li><a href="#">图形变变变</a></li>
+            <li><a href="#">教师节礼物</a></li>
+            <li><a href="#">车</a></li>
+            <li><a href="#">Sun</a></li>
+            <li><a href="#">欢迎光临教拆网</a></li>
+
+          </ul>
+
+
+          <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+             <input type="text" class="form-control" placeholder="Search">
+           </div>
+           <button type="submit" class="btn btn-default">Submit</button> 
+         </form> 
+         <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">网站信息<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">版本：3.3.2</a></li>
+              <li><a href="#">第一次更新：8/4</a></li>
+              <li><a href="#">下一个更新：8／12</a></li>
+              <li class="divider"></li>
+              <li><a href="#">哈！链接都是空的！</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
+</div>
+
+<div class="jumbotron">
+  <div class="container-fluid">
+
+
+    <div class="row">
+      <div class="col-md-4">
+       <h1>我是蒋以清</h1>
+       <p id="black-one">这是我的第二个网站</p>
+     </div>
+     <div class="col-md-8">
+      <div id="sw">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="../image/jyq2.jpg" alt="..." >
+              <div class="carousel-caption">
+                <h2>这些照片拍摄于2012年</h2>
+              </div>
+            </div>
+            <div class="item">
+             <img src="../image/jyq3.jpg" alt="..." >
+             <div class="carousel-caption">
+              <h2>这些照片拍摄于2012年</h2>
+            </div>
+          </div>
+          <div class="item">
+            <img src="../image/jyq4.jpg" alt="...">
+            <div class="carousel-caption">
+             <h2>这些照片拍摄于2012年</h2>
+           </div>
+         </div>
+       </div>      
+       <!-- Controls -->
+
+       <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div> <!--carousel-->
+
+
+  </div>  
+</div><!--col-8-->
+</div><!--row-->
+<div class="row">
+  <div class="learn-more">
+    <div>
+
+
+
+     <!-- Button trigger modal -->
+     <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+     如果您还有需要,请点击此按钮
+     </button>
+
+     <!-- Modal -->
+     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="myModalLabel">网站信息</h4>
+          </div>
+          <div class="modal-body">
+           <div id="footer">
+             <div>
+
+               <h2><a href="#">这是我学电脑的地方</a></h2>
+             </div>
+             <div>
+               <h4>网站发布于2014/8/5，此次更新更新于2014/8/11</h4>
+             </div>
+             <div>
+               <h3>蒋以清版权所有。</h3>      </div>
+                    <button class="btn btn-info"><h2><a href="#" id="aI">返回</a></h2></button>
+               </div>
+             </div>
+             <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div><!--div-->
+  </div><!--learnmore-->
+</div><!--row-->
+
+
+</div><!--container-->
+</div> <!--jumbotron -->
+
+
+
+</body>
+</html>
