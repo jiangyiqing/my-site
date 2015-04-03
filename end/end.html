@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Enderdragon</title>
+    <style>
+    .button{
+          align-items: flex-start;
+          text-align: center;
+          cursor: default;
+          color: buttontext;
+          padding: 2px 6px 3px;
+          border: 2px outset buttonface;
+          border-image-source: initial;
+          border-image-slice: initial;
+          border-image-width: initial;
+          border-image-outset: initial;
+          border-image-repeat: initial;
+          /*background-color: buttonface;*/
+          background-color: red;
+          box-sizing: border-box;
+    }
+    </style>
+    <script type="text/javascript" src="../javascript/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+<h1>ENDERDRAGON</h1>
+<div class="eb"id="1"></div>
+<div class="eb"id="2"></div>
+<div class="eb"id="3"></div>
+<img src="Ender_Dragon.jpg">
+<img src="steve.jpeg">
+<div class="hide" id="win">YOU WIN</div>
+<div id="start" class="button" >START</div>
+<div class="hide" id="lose">YOU DIE</div>
+<img class="hide" id="ew" src="lost.jpeg">
+<img class="hide" id="sd" src="steve die.jpeg">
+
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.hide').hide(10);
+        $('#start').click(function(){
+            $('.hide').hide(10);
+            enderdragon();
+        });
+    });
+
+    function enderdragon(){
+        var slaying = true;
+        var youHit = Math.floor(Math.random()*2);
+        var damageThisRound = Math.floor(Math.random()*5 +1 );
+        var totalDamage = 0;
+        while(slaying){
+            if(youHit){
+                alert("You hit the Endercristle and the Enderdragon! You hit"+damageThisRound);
+                totalDamage += damageThisRound;
+                if(totalDamage >= 4){
+                    $('#win').fadeIn(1000);
+
+                    slaying = false;
+                }else{
+                    youHit = Math.floor(Math.random()*2);
+                }
+            }else{
+                // console.log("The Enderdragon threw you under the bedrock! YOU DIE!!");
+                $('#lose').fadeIn(1000);
+                 $('#sd').fadeIn(1000);
+                  $('#ew').fadeIn(1000);
+                slaying = false;
+            }
+        }
+    };   
+</script>
+</body>
+</html>
