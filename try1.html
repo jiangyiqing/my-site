@@ -39,7 +39,7 @@
     </style>
 	<script type="text/javascript">
 		$(document).ready(function(){
-			$('#button').click(function(){				
+			$('#button').click(function(){
 				$('.list').empty();
 				var number = $("#checkListItem").val();
 				// var number = prompt('Enter Number！');
@@ -55,7 +55,7 @@
 					$(".list").append('请输入小于10e+7正整数！');
 					$('input[name=checkListItem]').val('');
 				};
-				
+
 			});
 		});
 
@@ -64,7 +64,7 @@
 			for (var i = 1; i <= number; i++) {
 				if (number%i===0) {
 						// alert(number/i);
-						
+
         			$(".list").append('<li>'+number/i+'</li>');
 
 					};
@@ -88,8 +88,5 @@
 			}
 		}
 	</script>
-	<a href="http://www.java.com/zh_CN/">Java官网</a>
-	<a href="http://www.mcbbs.net/thread-142335-1-1.html">Hello Minecraft启动器</a>
-	<a href="http://www.mcbbs.net/thread-412917-1-1.html">.minecraft下载</a>
 </body>
 </html>
