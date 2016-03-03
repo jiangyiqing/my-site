@@ -3,52 +3,104 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="bootstrap-3.1.1-dist/css/bootstrap.css" rel="stylesheet">
-	<script type="text/javascript" src="./javascript
-	/jquery-1.10.2.min.js"></script>
-	  <script src="bootstrap-3.1.1-dist/js/bootstrap.js"></script>
+  <link href="dist/css/bootstrap.css" rel="stylesheet">
+	<script type="text/javascript" src="./javascript/jquery-1.10.2.min.js"></script>
+	  <script src="dist/js/bootstrap.js"></script>
+		<style>
 
+		    .button{
+		          text-align: center;
+		/*          cursor: default;*/
+		          color: buttontext;
+		          padding: 2px 6px 3px;
+		          border: 2px outset buttonface;
+		          border-image-source: initial;
+		          border-image-slice: initial;
+		          border-image-width: initial;
+		          border-image-outset: initial;
+		          border-image-repeat: initial;
+		          /*background-color: buttonface;*/
+		          width: 50px;
+		          border-radius: 5px;
+		          background-color: #dddddd;
+		          box-sizing: border-box;
+		    }
+				.row .jombotron{
+					align-items: center;
+				}
+		</style>
 </head>
 <body>
-<div class="jumbotron"><h2>分解因数</h2>
-<div class="row">
-			<input type="number" id="checkListItem"/>
-<div class="btn btn-success" id="button">Start</div></div>
-		<ul class="list">
-<!-- 		<li class="list"></li> -->
-		</ul></div>
-<style>
+	<div>
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/index.html">Home</a>
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="http://www.jiangyq.com/test.html">Next Page</a></li>
+				<li><a href="http://www.jiangyq.com/j.html">图形变变变</a></li>
+				<li><a href="http://www.jiangyq.com/y.html">教师节礼物</a></li>
+				<li><a href="http://www.jiangyq.com/q.html">车</a></li>
+				<li><a href="http://www.jiangyq.com/sun.html">Sun</a></li>
+				<!-- <li><a href="#">欢迎光临教拆网</a></li> -->
+				<li><a href="http://www.jiangyq.com/lego.html"><legend>Lego</legend></a></li>
+				<li><a href="http://www.jiangyq.com/ay.html">公会报名</a></li>
+			</ul>
 
-    .button{
-          text-align: center;
-/*          cursor: default;*/
-          color: buttontext;
-          padding: 2px 6px 3px;
-          border: 2px outset buttonface;
-          border-image-source: initial;
-          border-image-slice: initial;
-          border-image-width: initial;
-          border-image-outset: initial;
-          border-image-repeat: initial;
-          /*background-color: buttonface;*/
-          width: 50px;
-          border-radius: 5px;
-          background-color: #dddddd;
-          box-sizing: border-box;
-    }
-    </style>
+			<form class="navbar-form navbar-left" role="search">
+				<div class="form-group">
+				 <input type="text" class="form-control" placeholder="Search">
+			 </div>
+			 <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		 <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Link</a></li>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown">网站信息<span class="caret"></span></a>
+				<ul class="dropdown-menu" role="menu">
+					<li><a href="#">版本：3.3.2</a></li>
+					<li><a href="#">第一次更新：2014/8/4</a></li>
+					<li><a href="#">本次更新：2016／1／15</a></li>
+					<li class="divider"></li>
+					<li><a href="#">哈！链接都（不）是空的！</a></li>
+				</ul>
+			</li>
+		 </ul>
+		</div><!-- /.navbar-collapse -->
+	</div> <!-- /.container-fluid -->
+	</nav>
+</div>
+
+	<div class="container">
+			<div class="jumbotron"><h2>分解因数</h2>
+				<div class="row">
+					<input type="number" id="checkListItem"/>
+					<div class="btn btn-success" id="button">Start</div></div>
+					<ul class="list">
+<!-- 		<li class="list"></li> -->
+					</ul>
+			</div>
+	</div>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#button').click(function(){
 				$('.list').empty();
 				var number = $("#checkListItem").val();
 				// var number = prompt('Enter Number！');
-				if (number>=1&&number%1===0) {
+				if (number>=1&&number%1===0&&number<=10000000) {
 					$('.list').append(number+'的因数有：');
-					// forloop(number);
+					forloop(number);
 					// whileloop(number);
-					whiletest(number);
-					whiletest(number);
+					// whiletest(number);
 				$('#checkListItem').val('');
 
 				}else {
@@ -71,22 +123,22 @@
 				};
 		}
 
-		var whileloop = function (number) {
-			var a =number;
-
- 			while (a>1) {
- 				if (number%a===0) {
- 						$('.list').append('<li>'+number/a+'</li>');
-				}
-			a--;
-			}
-		}
-		var whiletest = function (number) {
-			var b = 2;
-			while (number%2===0) {
-				$('.list').append('<li>'+number/b+'</li>');
-			}
-		}
+		// var whileloop = function (number) {
+		// 	var a =number;
+		//
+ 	// 		while (a>1) {
+ 	// 			if (number%a===0) {
+ 	// 					$('.list').append('<li>'+number/a+'</li>');
+		// 		}
+		// 	a--;
+		// 	}
+		// }
+		// var whiletest = function (number) {
+		// 	var b = 2;
+		// 	while (number%2===0) {
+		// 		$('.list').append('<li>'+number/b+'</li>');
+		// 	}
+		// }
 	</script>
 </body>
 </html>

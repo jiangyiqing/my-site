@@ -1,18 +1,60 @@
 <html>
   <head>
         <link rel="stylesheet" href="sun.css" />
-        <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet">
+        <link href="dist/css/bootstrap.css" rel="stylesheet">
         <title>太阳系</title>
   </head>
 
   <body>
-    <div class="row" style="height=100%">
+    <div class="navbar-wrapper" style="background-color:#000">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">蒋以清的网站5.0.1</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/index.html">主页</a></li>
+                <li><a href="/sun.html">太阳系</a></li>
+                <li><a href="/lego.html">乐高</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">程序<span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="/test.html">我以前的网站(非正式1.0)</a></li>
+                    <li><a href="/index3.html">我以前的网站(非正式3.0,未采用)</a></li>
+                    <li><a href="/j.html">Old：图形变变变</a></li>
+                    <li><a href="/y.html">Old：教师节礼物</a></li>
+                    <li><a href="/q.html">Old：车</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Version：5.0.1</li>
+                    <li><a href="/index4.html">4.0 Website(2013~2015)</a></li>
+                    <li><a href="/oldtimeindex.html">2.0 Website(2012)</a></li>
+                    <li><a href="/Oldestindex.html">1.0 Website(2012)</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <div class="row" style="height:100% ; margin-left:0px">
       <div>
         <div id="a" class="col-md-2">
-          <h1>菜单</h1>
-          <button><a href="http://jiangyq.com">主页</a></button>
+          <h1 class="whitefont">菜单</h1>
           <div id="letter">
-            <h6 style="font-size=25px;">实际比例为：<br />319000（太阳 Sun）:<br />0.055（水星 Mercury）:<br />0.82（金星 Venus）:<br />1（地球 Earth）:<br />0.11（火星 Mars）:<br />318（木星 Jupiter）:<br />95（土星 Saturn）:<br />14（天王星 Uranus):<br />17(海王星 Nepture)</h6>
+            <h6 style="font-size=25px;" class="whitefont">实际比例为：<br />319000（太阳 Sun）:<br />0.055（水星 Mercury）:<br />0.82（金星 Venus）:<br />1（地球 Earth）:<br />0.11（火星 Mars）:<br />318（木星 Jupiter）:<br />95（土星 Saturn）:<br />14（天王星 Uranus):<br />17(海王星 Nepture)</h6>
           </div>
         </div>
       </div><!-- col2 -->
