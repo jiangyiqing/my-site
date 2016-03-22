@@ -102,7 +102,7 @@ $(document).ready(function(){
     	if (i<s.length-1) scoded+=",";
     }
     scoded+="";
-    $('.list').append('<li>'+scoded+'</li>');
+    $('.list').append('<h3>加密后的文字:</h3><h4>'+scoded+'</h4>');
     $('#checkListItem').val('');
   });
 
@@ -117,7 +117,7 @@ $(document).ready(function(){
        result+=String.fromCharCode(var1);
       //  console.log(String.fromCharCode(answer[i]));
       }
-      $('.list').append('<li>'+result+'</li>');
+      $('.list').append('<h3>解密后的文字:</h3><h4>'+result+'</li>');
       $('#checkListItem').val('');
     });
 });
