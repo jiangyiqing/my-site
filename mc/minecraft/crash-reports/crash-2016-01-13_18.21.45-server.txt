@@ -1,0 +1,96 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 16-1-13 下午6:21
+Description: Ticking entity
+
+java.lang.NullPointerException: Ticking entity
+	at com.flansmod.common.driveables.DriveableType.getItemsRequired(DriveableType.java:545)
+	at com.flansmod.common.driveables.PlaneType.getItemsRequired(PlaneType.java:172)
+	at com.flansmod.common.driveables.EntityDriveable.killPart(EntityDriveable.java:1246)
+	at com.flansmod.common.driveables.EntityDriveable.checkParts(EntityDriveable.java:1202)
+	at com.flansmod.common.driveables.EntityDriveable.bulletHit(EntityDriveable.java:1162)
+	at com.flansmod.common.guns.EntityBullet.func_70071_h_(EntityBullet.java:415)
+	at net.minecraft.world.World.func_72866_a(World.java:1880)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:732)
+	at net.minecraft.world.World.func_72870_g(World.java:1850)
+	at net.minecraft.world.World.func_72939_s(World.java:1679)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:571)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:704)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:598)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:164)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:478)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.flansmod.common.driveables.DriveableType.getItemsRequired(DriveableType.java:545)
+	at com.flansmod.common.driveables.PlaneType.getItemsRequired(PlaneType.java:172)
+	at com.flansmod.common.driveables.EntityDriveable.killPart(EntityDriveable.java:1246)
+	at com.flansmod.common.driveables.EntityDriveable.checkParts(EntityDriveable.java:1202)
+	at com.flansmod.common.driveables.EntityDriveable.bulletHit(EntityDriveable.java:1162)
+	at com.flansmod.common.guns.EntityBullet.func_70071_h_(EntityBullet.java:415)
+	at net.minecraft.world.World.func_72866_a(World.java:1880)
+	at net.minecraft.world.WorldServer.func_72866_a(WorldServer.java:732)
+	at net.minecraft.world.World.func_72870_g(World.java:1850)
+
+-- Entity being ticked --
+Details:
+	Entity Type: flansmod.Bullet (com.flansmod.common.guns.EntityBullet)
+	Entity ID: 3462145
+	Entity Name: entity.flansmod.Bullet.name
+	Entity's Exact location: 2766.92, 5.62, -980.78
+	Entity's Block location: 2766.00,5.00,-981.00 - World: (2766,5,-981), Chunk: (at 14,0,11 in 172,-62; contains blocks 2752,0,-992 to 2767,255,-977), Region: (5,-2; contains chunks 160,-64 to 191,-33, blocks 2560,0,-1024 to 3071,255,-513)
+	Entity's Momentum: -3.20, -2.82, 9.08
+	Entity's Rider: ~~ERROR~~ NullPointerException: null
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: null
+Stacktrace:
+	at net.minecraft.world.World.func_72939_s(World.java:1679)
+	at net.minecraft.world.WorldServer.func_72939_s(WorldServer.java:571)
+
+-- Affected level --
+Details:
+	Level name: New World
+	All players: 1 total; [EntityPlayerMP['24_emerald'/256, l='New World', x=2766.92, y=4.00, z=-980.78]]
+	Chunk stats: ServerChunkCache: 984 Drop: 0
+	Level seed: 1
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: 966.00,4.00,-596.00 - World: (966,4,-596), Chunk: (at 6,0,12 in 60,-38; contains blocks 960,0,-608 to 975,255,-593), Region: (1,-2; contains chunks 32,-64 to 63,-33, blocks 512,0,-1024 to 1023,255,-513)
+	Level time: 394226 game time, 418226 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 9221 (now: false), thunder time: 15858 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:704)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:598)
+	at net.minecraft.server.integrated.IntegratedServer.func_71217_p(IntegratedServer.java:164)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:478)
+	at java.lang.Thread.run(Thread.java:745)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8
+	Operating System: Mac OS X (x86_64) version 10.10.5
+	Java Version: 1.8.0_60, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 120762376 bytes (115 MB) / 584007680 bytes (556 MB) up to 1060372480 bytes (1011 MB)
+	JVM Flags: 5 total; -Xmx1G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.10 FML v8.0.99.99 Minecraft Forge 11.14.4.1563 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8-11.14.4.1563.jar) 
+	UCHIJAAAA	Forge{11.14.4.1563} [Minecraft Forge] (forge-1.8-11.14.4.1563.jar) 
+	UCHIJAAAA	flansmod{5.1} [Flan's Mod] (Flan's Mod-1.8-5.1.jar) 
+	UCHIJAAAA	flansmodapocalypse{1.0} [Flan's Mod: Apocalypse] (Flan's Mod Apocalypse-1.8-1.0.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 1 / 8; [EntityPlayerMP['24_emerald'/256, l='New World', x=2766.92, y=4.00, z=-980.78]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

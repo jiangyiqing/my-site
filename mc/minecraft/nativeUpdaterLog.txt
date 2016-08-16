@@ -1,0 +1,24 @@
+﻿Native Launcher Version: 302
+Operating System: OSX Version 10.11.5 (Build 15F34)
+Application Hash: 309dd53a444ac8b681db02c72dad1d4b5275c9e4
+Application Data directory: /Users/jiangjianghong/Library/Application Support/minecraft
+Executable Path: /Applications/Minecraft.app/Contents/MacOS/launcher
+App Directory dir: /Applications/Minecraft.app/Contents
+Start dir: /Users/jiangjianghong/Library/Application Support/minecraft
+Launcher dir: /Users/jiangjianghong/Library/Application Support/minecraft
+TmpDir dir: /Users/jiangjianghong/Library/Application Support/minecraft
+Java Launcher hash: ccb4a2df12fa3bd8c4d27ece46f692d12f91a01b
+Java Version: 1.8.0_74
+x64: 1
+LauncherConfiguration from: https://launchermeta.mojang.com/mc/launcher.json
+Downloaded config
+Native update needed
+Native launcher outdated!
+Hash should be 90c1479615047279974f095cab4a402f53e29a2f
+Java launcher is current: ccb4a2df12fa3bd8c4d27ece46f692d12f91a01b(ccb4a2df12fa3bd8c4d27ece46f692d12f91a01b)
+Check to see if we can run the launcher
+runJavaLauncher
+Unpack /Users/jiangjianghong/Library/Application Support/minecraft/tmpLauncher.tmp
+Unpack successful
+Java bin dir: ./runtime/jre-x64/1.8.0_74/bin
+Starting application: /Applications/Minecraft.app

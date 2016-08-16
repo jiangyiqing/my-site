@@ -1,0 +1,20 @@
+[09:14:31] [Client thread/INFO]: Setting user: 24_emerald
+[09:14:33] [Client thread/INFO]: LWJGL Version: 2.9.2
+[09:14:33] [Client thread/INFO]: Reloading ResourceManager: Default
+[09:14:34] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[09:14:34] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[09:14:34] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[09:14:34] [Thread-5/INFO]: OpenAL initialized.
+[09:14:34] [Sound Library Loader/INFO]: Sound engine started
+[09:14:36] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[09:16:31] [Client thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[09:16:33] [Client thread/INFO]: Connecting to 139.196.19.61, 25565
+[09:16:34] [Client thread/INFO]: [CHAT] 24_emerald joined the game
+[09:16:50] [Client thread/INFO]: [CHAT] Unknown command. Type "/help" for help.
+[09:19:13] [Client thread/INFO]: [CHAT] <24_emerald> lobbycompass.use
+[09:19:17] [Client thread/INFO]: [CHAT] Unknown command. Type "/help" for help.
+[09:19:20] [Client thread/INFO]: [CHAT] [Compass] Not valid arguments or to few permissions.
+[09:19:30] [Client thread/WARN]: Unable to start LAN server detection: Can't assign requested address
+[09:19:31] [Client thread/INFO]: Stopping!
+[09:19:31] [Client thread/INFO]: SoundSystem shutting down...
+[09:19:32] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

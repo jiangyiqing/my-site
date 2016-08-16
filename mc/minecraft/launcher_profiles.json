@@ -1,0 +1,67 @@
+{
+  "profiles": {
+    "forge": {
+      "name": "forge",
+      "lastVersionId": "1.8-forge1.8-11.14.4.1563"
+    },
+    "Forge": {
+      "name": "Forge",
+      "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10"
+    },
+    "flan": {
+      "name": "flan",
+      "lastVersionId": "1.8-forge1.8-11.14.4.1563",
+      "javaArgs": "-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:-UseAdaptiveSizePolicy -Xmn128M",
+      "allowedReleaseTypes": [
+        "release",
+        "snapshot"
+      ]
+    },
+    "Copy of 24_emerald": {
+      "name": "Copy of 24_emerald",
+      "lastVersionId": "1.9.4",
+      "allowedReleaseTypes": [
+        "release",
+        "snapshot"
+      ]
+    },
+    "flan 164": {
+      "name": "flan 164",
+      "lastVersionId": "1.7.10-Forge10.13.4.1614-1.7.10",
+      "allowedReleaseTypes": [
+        "snapshot",
+        "release"
+      ]
+    },
+    "24_emerald": {
+      "name": "24_emerald",
+      "lastVersionId": "1.10.2",
+      "allowedReleaseTypes": [
+        "snapshot",
+        "release"
+      ]
+    }
+  },
+  "selectedProfile": "24_emerald",
+  "clientToken": "3fd497d0-13db-4b76-a986-40fac20d98cd",
+  "authenticationDatabase": {
+    "023adb1d6d614734b7508703dfa092a3": {
+      "displayName": "24_emerald",
+      "userProperties": [
+        {
+          "name": "twitch_access_token",
+          "value": "3iivxx8mp2j473cneb667hf3l5ztwx"
+        }
+      ],
+      "accessToken": "f16478730b6041b8ae596267227e7362",
+      "userid": "c961f94352a1a9b72b3baed4976ffb6f",
+      "uuid": "023adb1d-6d61-4734-b750-8703dfa092a3",
+      "username": "jiangyq2004@gmail.com"
+    }
+  },
+  "selectedUser": "023adb1d6d614734b7508703dfa092a3",
+  "launcherVersion": {
+    "name": "1.6.61",
+    "format": 18
+  }
+}
